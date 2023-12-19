@@ -10,5 +10,5 @@ mood = "😁"
 print(name)
 print(today)
 print(statement)
-print(f"I am feeling {mood}")
+print(f"I am feeling  {mood}")
 print(f"You can follow my progress at replit.com/@{username}")
