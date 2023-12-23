@@ -6,17 +6,12 @@ I am going to as you a couple of questions first.'''
 print(intro)
 print()
 
-name = input('What is your name?: ')
-friend = input('Please name a dear friend: ')
-location = input('Where can you be found?: ')
-food = input('What is your favorite food?: ')
+print("Welcome to your adventure simulator. I am going to ask you a bunch of questions and then create an epic story with you as the star!")
 
-print()
+name = input("What is your name?")
+enemy = input("What is your worst enemy’s name?")
+superpower = input("What is your superpower?")
+live = input("Where do you live?")
+food = input("What is your favorite food?")
 
-print(
-    f'It was the best of times, it was the worst of times, it was the age of '
-    f'wisdom, it was the age of foolishness, when {name} and {friend} explored '
-    f'{location} again. They were curious, smiling, and a bit peckish. '
-    f'Fortunately, a restaurant was just around the corner. They entered, '
-    f'took seat and ordered some {food}.'
-)
+print("Hello", name, "Your ability to", superpower, "will make sure you never have to look at", enemy, "again. Go eat", food, "as you walk down the streets of", live, "and use\033[35m", superpower, "\033[0mfor good and not evil!")
