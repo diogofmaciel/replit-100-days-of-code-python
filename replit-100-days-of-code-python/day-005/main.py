@@ -1,48 +1,37 @@
-"""Movie Character Generator"""
+# myName = input("What's your name?: ")
+# if myName == "David":
+# print("Welcome Dude!")
+# print("You're just the baldest dude I've ever seen")
+# else:
+# print("Who on earth are you?!")
 
-intro = """--- Let me guess who you are ---
+# catsOrDogs = input("Are you a cat person? Or a dog person?: ")
+# if catsOrDogs == "cat":
+# print("Meow")
+# else:
+# print("Woof")
 
-You can make this a lot easier it you answer with "yes" or "no".
+# drink = input("Do you prefer coffee or tea?")
+# if drink == "coffee":
+# print("Tea is better.")
+# else:
+# print("Excellent choice.")
 
-"""
-
-print(intro)
+print("Marvel Movie Character Creator")
 print()
-unique = input('Are you unique and the last of your kind?: ')
-if unique == 'yes':
-  moist = input('Do you need to be moisturised?: ')
-  if moist == 'yes':
-    print()
-    print("You are Lady Cassandra O'Brien.")
-  else:
-    print("I reckon that you are the Face of Boe.")
 
+spiderMan = input("Do you like hanging around?")
+if spiderMan == "Yes":
+  print("You are Spider-Man!")
 else:
-  print()
-  similar = input('Do you and your pals all look the same?: ')
-  if similar == 'yes':
-    print()
-    fatty = input("You're a bit on the fatty side, aren't you?: ")
-    if fatty == 'yes':
-      print()
-      print("Your're an Adipose. Come back after Christmas. I might have something for you!")
+  print("Then you are not Spider-man")
+  korg = input("Do you have a 'gravelly' voice?")
+  if korg == "Yes":
+    print("You are Korg!")
+  else:
+    print("Aww, then you are not Korg")
+    captainMarvel = input("Do you often feel 'Marvelous'?")
+    if captainMarvel == "Yes":
+      print("Aha! You are Captain Marvel! Hi!")
     else:
-      print()
-      cyber = input('Are you into no meat and lots of cyber?: ')
-      if cyber == 'yes':
-        print
-        ()
-        print('You and your blokes are Cybermen')
-      else:
-        print()
-        exterminate = input("You really would like to exterminate the flippin' sh*t out of me, don't you?: ")
-        if exterminate == 'yes':
-          print("You are a DALEK!")
-
-
-
-
-
-
-
-
+      print("You suck!")
